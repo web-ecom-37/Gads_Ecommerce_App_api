@@ -18,7 +18,6 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 
 ## API Endpoints
 
-<<<<<<< Updated upstream
 | REQUEST | ROUTE                           | FUNCTIONALITY                 |
 | ------- | ------------------------------- | ----------------------------- |
 | POST    | api/v1/auth/login               | Logs in a user                |
@@ -44,7 +43,7 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 ||POST      |            | |
 
 -----------------------------------------------------------------------------
->>>>>>> Stashed changes
+
 
 ### Getting started with the app
 
