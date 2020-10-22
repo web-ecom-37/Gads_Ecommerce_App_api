@@ -18,10 +18,33 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 
 ## API Endpoints
 
+<<<<<<< Updated upstream
 | REQUEST | ROUTE                           | FUNCTIONALITY                 |
 | ------- | ------------------------------- | ----------------------------- |
 | POST    | api/v1/auth/login               | Logs in a user                |
 
+=======
+|RESOURCE NAME | REQUEST | ROUTE                           | FUNCTIONALITY                 |
+|-| ------- | ------------------------------- | ----------------------------- |
+||POST     |api/v1/signin               | Logs in a user                |
+||POST     |api/v1/signup               | creates a user account        |
+||GET      |api/v1/signout              | ends user session             |
+||GET      |api/v1/secret/:userId            | Protected route               |
+||GET      |api/v1/user/:userId              | Protected route               |
+||PUT      |api/v1/user/:userId              | updates user routes           |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+||POST      |            | |
+
+-----------------------------------------------------------------------------
+>>>>>>> Stashed changes
 
 ### Getting started with the app
 
@@ -30,24 +53,35 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 -   [nodejs ](link)
 -   [mongodb](link)
 -   [expressjs](link)
+-   [app engine]()
+
 
 ### Installation
 
-Create a new directory and initialize git in it. Clone this repository by running
+ > Create a new directory and initialize git in it. Clone this repository by running
 
 ```sh
 
 ```
-Install the dependencies in the package.json file using using npm
+Install the dependencies in the package.json file using using npm or yarn
 
 ```sh
 npm install 
 ```
+or 
+```sh
+yarn install 
+```
+
 
 Start the application by running
 
 ```sh
 npm start
+```
+or 
+```sh
+yarn start
 ```
 
 Test your setup using [postman](www.getpostman.com) REST-client
@@ -57,5 +91,10 @@ Test your setup using [postman](www.getpostman.com) REST-client
 -  
 
 ### View the API 
-
-
+- veiw app on google engine 
+[Gads_Ecommerce_App]()
+## Contributors 
+***  
+|| Developers | Role |email|
+|--|-----------|------|-----|
+||[Ernest Kabahima]( www.github.com/kabahima) |Backend developer |ernest575@oulook.com |

@@ -1,7 +1,7 @@
-const User = require("../../lib/models/users");
+const User = require("../../models/users");
 const jwt = require("jsonwebtoken");
 const expressJwt = require("express-jwt");
-const { errorHandler } = require("../utils/dbErrorHandler");
+const { errorHandler } = require("../../utils/dbErrorHandler");
 
 exports.signup = (req, res) => {
     // console.log("req.body", req.body);
