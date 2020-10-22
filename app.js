@@ -10,6 +10,9 @@ require('dotenv').config();
 // const home = require('./routes/home');
 const authRoutes = require('./api/lib/veiws/auth/auth');
 const userRoutes = require('./api/lib/veiws/auth/user');
+const categoryRoutes = require('./api/lib/veiws/shopping/category');
+const productRoutes = require('./api/lib/veiws/shopping/products');
+const orderRoutes = require('./api/lib/veiws/shopping/orders');
 
 
 // app
@@ -35,6 +38,9 @@ app.use(cors());
 // routes middleware
 app.use('/v1/api', authRoutes);
 app.use('/v1/api', userRoutes);
+app.use('/v1/api', categoryRoutes);
+app.use('/v1/api', productRoutes);
+app.use('/v1/api', orderRoutes);
 
 const port = process.env.PORT || 3000;
 

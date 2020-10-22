@@ -1,5 +1,5 @@
-const User = require("../models/users");
-const { errorHandler } = require("../utils/dbErrorHandler");
+const User = require("../../models/users");
+// const { errorHandler } = require("../../utils/dbErrorHandler");
 //  TODO:
 // :: - import the order model
 exports.userById = (req, res, next, id) => {
