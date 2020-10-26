@@ -6,7 +6,8 @@ const { requireSignin, isAuth, isAdmin } = require("../../controllers/authentica
 const {
     userById,
     read,
-    update
+    update,
+    purchaseHistory
 } = require("../../controllers/authentication/user");
 
 router.get("/secret/:userId", requireSignin, isAuth, isAdmin, (req, res) => {
@@ -17,7 +18,7 @@ router.get("/secret/:userId", requireSignin, isAuth, isAdmin, (req, res) => {
 
 router.get("/user/:userId", requireSignin, isAuth, read);
 router.put("/user/:userId", requireSignin, isAuth, update);
-// TODO :: Purchase history route
+router.get("/orders/by/user/:userId", requireSignin, isAuth, purchaseHistory);
 
 router.param("userId", userById);
 

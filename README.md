@@ -18,14 +18,9 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 
 ## API Endpoints
 
-<<<<<<< Updated upstream
-| REQUEST | ROUTE                           | FUNCTIONALITY                 |
-| ------- | ------------------------------- | ----------------------------- |
-| POST    | api/v1/auth/login               | Logs in a user                |
 
-=======
-|RESOURCE NAME | REQUEST | ROUTE                           | FUNCTIONALITY                 |
-|-| ------- | ------------------------------- | ----------------------------- |
+||RESOURCE NAME | REQUEST | ROUTE                           | FUNCTIONALITY                 |
+|-|-| ------- | ------------------------------- | ----------------------------- |
 ||POST     |api/v1/signin               | Logs in a user                |
 ||POST     |api/v1/signup               | creates a user account        |
 ||GET      |api/v1/signout              | ends user session             |
@@ -44,7 +39,6 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 ||POST      |            | |
 
 -----------------------------------------------------------------------------
->>>>>>> Stashed changes
 
 ### Getting started with the app
 
@@ -61,7 +55,7 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
  > Create a new directory and initialize git in it. Clone this repository by running
 
 ```sh
-
+git clone  
 ```
 Install the dependencies in the package.json file using using npm or yarn
 

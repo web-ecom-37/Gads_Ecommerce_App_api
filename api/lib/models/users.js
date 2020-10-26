@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema(
             type: String,
             trim: true
         },
-        salt: Number,
+        salt: String,
         role: {
             type: Number,
             default: 1
