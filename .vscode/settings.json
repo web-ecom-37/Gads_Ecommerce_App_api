@@ -1,0 +1,23 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.cursorStyle": "underline-thin",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.allowMnemonics": true,
+    "prettier.insertPragma": true,
+    "prettier.useTabs": true,
+    "python.autoComplete.addBrackets": true,
+    "python.dataScience.allowUnauthorizedRemoteConnection": true,
+    "python.dataScience.alwaysScrollOnNewCell": true,
+    "python.dataScience.changeDirOnImportExport": true,
+    "python.dataScience.disableJupyterAutoStart": true,
+    "python.dataScience.exportWithOutputEnabled": true
+}
