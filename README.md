@@ -19,31 +19,31 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 ## API Endpoints
 
 | REQUEST | ROUTE                           | FUNCTIONALITY                 |
-| ------- | ------------------------------- | ----------------------------- |
-| POST    | api/v1/auth/login               | Logs in a user                |
-
-=======
-|RESOURCE NAME | REQUEST | ROUTE                           | FUNCTIONALITY                 |
 |-| ------- | ------------------------------- | ----------------------------- |
-||POST     |api/v1/signin               | Logs in a user                |
-||POST     |api/v1/signup               | creates a user account        |
-||GET      |api/v1/signout              | ends user session             |
-||GET      |api/v1/secret/:userId            | Protected route               |
-||GET      |api/v1/user/:userId              | Protected route               |
-||PUT      |api/v1/user/:userId              | updates user routes           |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-||POST      |            | |
-
------------------------------------------------------------------------------
-
+|POST     |api/v1/signin               | Logs in a user                |
+|POST     |api/v1/signup               | creates a user account        |
+|GET      |api/v1/signout              | ends user session             |
+|GET      |api/v1/secret/:userId            | Protected route               |
+|GET      |api/v1/user/:userId              | Protected route               |
+|PUT      |api/v1/user/:userId              | updates user routes           |
+|GET      | api/v1/category/:categoryId     |displays a particular category |
+|PUT      |api/v1/category/:categoryId            |updates a category  |
+|DELETE      | api/v1/category/:categoryId           |deletes a catergory (protected ) - it requires a user to be an adminstrator |
+|GET      |   api/v1/categories       | lists all product categories |
+|POST     |  /category/create/:userId          | creates a catergory (protected ) - it requires a user to be an adminstrator |
+|GET     | /product/:productId           |Displays a product  |
+|   POST  |   /product/create/:userId         |Creates a  (protected ) - it requires a user to be an adminstrator  |
+|DELETE     | /product/:productId/:userId           |Deletes  a product   (protected ) - it requires a user to be an adminstrator|
+|  PUT   | /product/:productId/:userId           |updates  a product   (protected ) - it requires a user to be an adminstrator|
+|  GET   | /products          |Displays all products|
+|  GET   | /products/search          |Displays all products based on search / query |
+|  GET   | /products/related/:productId         |Displays only related products |
+|  GET   | /products/categories       |Displays products based on categories |
+|  GET   | /products/by/search       |queries for products based on the users  |
+|  GET   | /product/photo/:productId      |diplays product photo  |
+|  POST   | /order/create/:userId      |posts an order from the buyer  |
+| GET   | /order/list/:userId     |DISPLAYS ALL ORDERS TO THE SELLER |
+| GET   |  /order/:orderId/status/:userId  |UPDATES ORDERS STATUS |
 
 ### Getting started with the app
 
@@ -60,7 +60,7 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
  > Create a new directory and initialize git in it. Clone this repository by running
 
 ```sh
-
+git clone  
 ```
 Install the dependencies in the package.json file using using npm or yarn
 
