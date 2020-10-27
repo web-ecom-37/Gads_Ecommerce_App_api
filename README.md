@@ -18,7 +18,7 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 
 ## API Endpoints
 
-| REQUEST | ROUTE                           | FUNCTIONALITY                 |
+| |REQUEST | ROUTE                           | FUNCTIONALITY                 |
 |-| ------- | ------------------------------- | ----------------------------- |
 |POST     |api/v1/signin               | Logs in a user                |
 |POST     |api/v1/signup               | creates a user account        |
