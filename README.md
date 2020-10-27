@@ -44,6 +44,7 @@ Gads_Ecommerce_App is a community project on an e-commerce app built by a group 
 |  POST   | /order/create/:userId      |posts an order from the buyer  |
 | GET   | /order/list/:userId     |DISPLAYS ALL ORDERS TO THE SELLER |
 | GET   |  /order/:orderId/status/:userId  |UPDATES ORDERS STATUS |
+
 ### Getting started with the app
 
 ### Technologies used to build the application
