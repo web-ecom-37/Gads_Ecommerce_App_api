@@ -90,8 +90,8 @@ Test your setup using [postman](www.getpostman.com) REST-client
 -  
 
 ### View the API 
-- veiw app on google engine 
-[Gads_Ecommerce_App]()
+- veiw app on heruku 
+[Gads_Ecommerce_App](https://gads2020-app.herokuapp.com)
 ## Contributors 
 ***  
 || Developers | Role |email|
