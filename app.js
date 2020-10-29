@@ -7,7 +7,7 @@ const cors = require("cors");
 const expressValidator = require("express-validator");
 require("dotenv").config();
 
-// const home = require('./routes/home');
+const home = require("./api/lib/veiws/index");
 const authRoutes = require("./api/lib/veiws/auth/auth");
 const userRoutes = require("./api/lib/veiws/auth/user");
 const categoryRoutes = require("./api/lib/veiws/shopping/category");
@@ -35,7 +35,7 @@ app.use(cookieParser());
 app.use(expressValidator());
 app.use(cors());
 // home route
-// app.use('/', home); // developer page
+app.use('/', home); // developer page
 // routes middleware
 app.use('/v1/api', authRoutes);
 app.use('/v1/api', userRoutes);
