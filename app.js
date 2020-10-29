@@ -1,18 +1,19 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const morgan = require('morgan');
-const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser');
-const cors = require('cors');
-const expressValidator = require('express-validator');
-require('dotenv').config();
+const express = require("express");
+const mongoose = require("mongoose");
+const morgan = require("morgan");
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
+const cors = require("cors");
+const expressValidator = require("express-validator");
+require("dotenv").config();
 
 // const home = require('./routes/home');
-const authRoutes = require('./api/lib/veiws/auth/auth');
-const userRoutes = require('./api/lib/veiws/auth/user');
-const categoryRoutes = require('./api/lib/veiws/shopping/category');
-const productRoutes = require('./api/lib/veiws/shopping/products');
-const orderRoutes = require('./api/lib/veiws/shopping/orders');
+const authRoutes = require("./api/lib/veiws/auth/auth");
+const userRoutes = require("./api/lib/veiws/auth/user");
+const categoryRoutes = require("./api/lib/veiws/shopping/category");
+const productRoutes = require("./api/lib/veiws/shopping/products");
+const orderRoutes = require("./api/lib/veiws/shopping/orders");
+const visaPaymentRoute= require("./api/lib/veiws/payments/visa");
 
 
 // app
@@ -41,6 +42,7 @@ app.use('/v1/api', userRoutes);
 app.use('/v1/api', categoryRoutes);
 app.use('/v1/api', productRoutes);
 app.use('/v1/api', orderRoutes);
+app.use('/api', visaPaymentRoute);
 
 const port = process.env.PORT || 3000;
 
